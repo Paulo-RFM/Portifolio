@@ -1,0 +1,42 @@
+@import url("colors.css");
+
+/* Estilos para a seção de Skills */
+.skills {
+    /*conf grade*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    /*conf layout div*/
+    height: 920px;
+    background-color: var(--background-color2); /* Cor de fundo da seção (substitua pela cor desejada) */
+    padding: 40px; /* Espaçamento interno da seção */
+}
+
+#title-skill {
+    text-align: center; /* Centraliza o título */
+    font-size: 60px; /* Tamanho do título (ajuste conforme necessário) */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+
+}
+
+
+.grid-item {
+    margin-bottom: 30px; /* Espaçamento entre categorias de habilidades */
+}
+
+.category-title {
+    font-size: 24px; /* Tamanho do título da categoria (ajuste conforme necessário) */
+}
+
+.skill-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skill-list li {
+    font-size: 35px;
+    font-size: 18px; /* Tamanho das habilidades listadas (ajuste conforme necessário) */
+    margin-bottom: 10px; /* Espaçamento entre habilidades */
+}
+

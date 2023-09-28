@@ -1,0 +1,58 @@
+@import url("colors.css");
+
+.home {
+    height: 920px;
+    margin-top: 80px;
+    display: flex;  
+}
+
+.presentation {
+    font-size: xx-large;
+    /* Alinhar verticalmente */
+    align-items: centro;
+    /* Espaçamento opcional */
+    margin: 10%;
+    padding-right: 25%;
+    color: var(--text-color);
+}
+
+.self-photo {
+    z-index: 2;
+    margin-top: 5%;
+    
+}
+
+.self-photo img {
+    max-width: 100%;
+}
+ .linkedin {
+ padding: 0;
+ margin: 0;
+ box-sizing: border-box;
+ width: 479px;
+ height: 85px;
+ background-color: #fff;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border-radius: 62px;
+ visibility: visible;
+ }
+
+ .linkedin :hover {
+    text-decoration:solid;
+ }
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores */
+    .presentation {
+        font-size: 16px; /* Define o tamanho da fonte para telas menores */
+    }
+    .linkedin {
+        font-size: 12px;
+        width: 100%; /* Define a largura como 100% para ocupar toda a largura da tela */
+        height: auto; /* Define a altura como 'auto' para manter a proporção */
+        border-radius: 0; /* Remove o raio da borda */
+
+    }
+}

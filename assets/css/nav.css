@@ -1,0 +1,47 @@
+/* Estilos para a barra de navegação (navbar) */
+@import url("colors.css");
+
+.nav-header {
+    background-color: var(--background-color);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px; /* Altura da barra de navegação */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3; /* Define uma camada acima do conteúdo */
+}
+
+.nav-header img {
+    width: 24px;
+}
+
+.nav-links ul {
+    width: 100%;
+    list-style: none;
+    display: flex; /* Exibir os itens na horizontal */
+    justify-content: center; /* Centralizar os itens horizontalmente */
+    padding: 30px; /* Remover o espaçamento interno da lista */
+}
+
+.nav-links li {
+    font-size: 28px;
+    margin-right: 30px;
+}
+
+.nav-links a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: var(--backgroundButton-color);
+    color:var(--text-colorw);
+    border-radius: 5px;
+}
+
+
+

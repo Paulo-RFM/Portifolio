@@ -1,0 +1,39 @@
+@import url(colors.css);
+
+/* Estilos para a seção de projetos */
+.projects {
+    height: 920px;
+    padding: 40px; /* Espaçamento interno da seção */
+    display: flex;
+    flex-direction: column; /* Para empilhar elementos verticalmente */
+    justify-content: center; /* Para centralizar verticalmente */
+    align-items: center; /* Para centralizar horizontalmente */
+    z-index: 2;
+}
+
+.projects h2 {
+    text-align: center; /* Centraliza o título */
+    font-size: 28px; /* Tamanho do título (ajuste conforme necessário) */
+    margin-bottom: 20px; /* Espaçamento abaixo do título */
+}
+
+/* Estilos para o conteúdo dos projetos (substitua com seus próprios estilos) */
+/* Por exemplo, você pode adicionar uma lista de projetos com estilos apropriados */
+.projects-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.project-item {
+    margin-bottom: 20px; /* Espaçamento entre itens de projeto */
+}
+
+/* Exemplo de estilo para um item de projeto */
+.project-item h3 {
+    font-size: 20px; /* Tamanho do título do projeto */
+}
+
+.project-item p {
+    font-size: 16px; /* Tamanho do texto do projeto */
+}

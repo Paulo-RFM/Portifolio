@@ -1,0 +1,36 @@
+@import url("colors.css");
+
+.about-me {
+    height: 920px;
+    display: flex;
+    flex-direction: column; /* Para empilhar elementos verticalmente */
+    justify-content: center; /* Para centralizar verticalmente */
+    z-index: 2;
+    background-color: var(--background-color2);
+}
+
+.about-me h2 {
+    font-size: 60px;
+    text-align: center;
+}
+
+.about-me p {
+    font-size: 45px;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    /* Estilos para telas menores */
+    .about-me  h2 {
+        font-size: 3em; /* Define o tamanho da fonte para telas menores */
+    }
+    .about-me p {
+        font-size: 2em;
+        width: 100%; /* Define a largura como 100% para ocupar toda a largura da tela */
+        height: auto; /* Define a altura como 'auto' para manter a proporção */
+        
+    }
+}
