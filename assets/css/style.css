@@ -1,8 +1,15 @@
 @import url("colors.css");
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     color: var(--text-color);
     margin: 0;
     background-color: var(--primary-color);
-    z-index: 1;
+    z-index: 0;
+}
+
+#home #about, #projects,#skills, #contact {
+    margin-top: 50px;
 }

@@ -2,30 +2,44 @@
 
 /* Estilos para a seção de Skills */
 .skills {
-    /*conf grade*/
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 10px;
     /*conf layout div*/
-    height: 920px;
-    background-color: var(--background-color2); /* Cor de fundo da seção (substitua pela cor desejada) */
-    padding: 40px; /* Espaçamento interno da seção */
+    height: 100vh;
+    background-color: var(--primary-color);
+    /* Cor de fundo da seção (substitua pela cor desejada) */
+    /* Espaçamento interno da seção */
+    padding-top: 5%;
+    text-align: center;
 }
 
-#title-skill {
-    text-align: center; /* Centraliza o título */
-    font-size: 60px; /* Tamanho do título (ajuste conforme necessário) */
-    margin-bottom: 20px; /* Espaçamento abaixo do título */
-
+.skills h2 {
+    font-size: 2em;
+    text-align: center;
 }
 
+.grid-section {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* Use 1fr para dividir as colunas igualmente */
+    
+    align-items:baseline;
+}
+
+.grid-column {
+    padding: 2%;
+}
 
 .grid-item {
-    margin-bottom: 30px; /* Espaçamento entre categorias de habilidades */
+    margin: 5%;
+    padding: 2%;
+    text-align: center;
+    
 }
 
+
 .category-title {
-    font-size: 24px; /* Tamanho do título da categoria (ajuste conforme necessário) */
+    font-size: 2em;
+    /* Tamanho do título da categoria (ajuste conforme necessário) */
 }
 
 .skill-list {
@@ -35,8 +49,17 @@
 }
 
 .skill-list li {
-    font-size: 35px;
-    font-size: 18px; /* Tamanho das habilidades listadas (ajuste conforme necessário) */
-    margin-bottom: 10px; /* Espaçamento entre habilidades */
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    /* Espaçamento entre habilidades */
 }
 
+
+@media screen and (max-width: 768px) {
+    .category-title {
+        font-size: 1em;
+    }
+    .skill-list li {
+        font-size: 10px
+    }
+}

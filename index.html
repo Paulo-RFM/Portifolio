@@ -3,9 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0, orientation=landscape">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/home.css">
@@ -15,7 +13,7 @@
     <link rel="stylesheet" href="assets/css/skills.css">
     <link rel="stylesheet" href="assets/css/contact.css">
     <link rel="stylesheet" href="assets/css/footer.css">
-
+    <link rel="icon" href="assets/src/p2icon.png" type="image/x-icon">
     <title>Paulo Maciel</title>
 </head>
 
@@ -24,100 +22,133 @@
     <div class="nav-header">
         <div class="nav-links">
             <ul>
-                <li><a href="index.html">Home</a></li>
+                <li><a href="#home">Home</a></li>
                 <li><a href="#about">About Me</a></li>
-                <li><a href="#skills">skills</a></li>
+                <li><a href="#skills">Skills</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
 
     <!--home-->
-    <div class="home">
-        <header class="presentation">
-            Hi, I am
+    <section id="home">
+        <div class="home">
+            <header class="presentation">
+                Hi, I am
+                <br>
+                <div class="banner-content" data-aos="fade-in" data-aos-duration="3000">Paulo Maciel</div>
+                <h1>Software developer <br> Full stack</h1>
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/paulo-maciel-241a59205/" target="_blank"
+                        class="link">LinkedIn</a>
+                </div>
+            </header>
             <br>
-            <div class="banner-content" data-aos="fade-in" data-aos-duration="3000">Paulo Maciel</div>
-            <h1>Software developer <br> Full stack</h1>
-            <div class="linkedin">
-                <a href="https://www.linkedin.com/in/paulo-maciel-241a59205/" target="_blank" class="link">LinkedIn</a>
-            </div>
-        </header>
-
-        <div class="self-photo">
-            <img src="assets/src/p2.png" alt="Draw of me">
         </div>
-        <br>
-    </div>
+    </section>
 
     <!--aboute me-->
-    <div class="about-me">
-        <section id="about">
+    <section id="about">
+        <div class="about-me">
             <h2>About me</h2>
-            <p>Hello! My name is Paulo Maciel, and I am a Systems Information student with a passion for technology and software development. Currently, I am in the final stretch of my academic journey at the Federal University of Viçosa (UFV), where I've had the opportunity to explore various areas of computer science and acquire a diverse set of skills.</p>
-        </section>
-    </div>
-   
+            <p>Hello! My name is Paulo Maciel, and I am a Systems Information student with a passion for technology and
+                software development. Currently, I am in the final stretch of my academic journey at the Federal
+                University of Viçosa (UFV), where I've had the opportunity to explore various areas of computer science
+                and acquire a diverse set of skills.</p>
+        </div>
+    </section>
+
     <!--skilss-->
     <section id="skills">
-        <div id="title-skill">
-            <h2 class="section-title">Skills</h2>
-        </div>
         <div class="skills">
-            <div class="grid-item">
-                <h3 class="category-title">Frontend Development</h3>
-                <ul class="skill-list">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h3 class="category-title">Backend Development</h3>
-                <ul class="skill-list">
-                    <li>php</li>
-                    <li>Java</li>
-                    <li>C/C++</li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h3 class="category-title">Database</h3>
-                <ul class="skill-list">
-                    <li>MySQL/Workbench</li>
-                    <li>PostgresSQL</li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h3 class="category-title">Mobile</h3>
-                <ul class="skill-list">
-                    <li>Android</li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h3 class="category-title">Games</h3>
-                <ul class="skill-list">
-                    <li>Allegro</li>
-                    <li>Libjdx</li>
-                </ul>
-            </div>
-            <div class="grid-item">
-                <h3 class="category-title">Git</h3>
-                <ul class="skill-list">
-                    <li>Git</li>
-                    <li>Github</li>
-                </ul>
+            <h2>Skills</h2>
+
+            <div class="grid-section">
+                <div class="grid-colunm">
+                    <div class="grid-item">
+                        <h3 class="category-title">Front-end Development</h3>
+                        <ul class="skill-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-item">
+                        <h3 class="category-title">Games</h3>
+                        <ul class="skill-list">
+                            <li>Allegro</li>
+                            <li>Libgdx</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="grid-colunm">
+                    <div class="grid-item">
+                        <h3 class="category-title">Database</h3>
+                        <ul class="skill-list">
+                            <li>MySQL/Workbench</li>
+                            <li>PostgresSQL</li>
+                        </ul>
+                    </div>
+                    <div class="grid-item">
+                        <h3 class="category-title">Mobile</h3>
+                        <ul class="skill-list">
+                            <li>Android</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="grid-colunm">
+                    <div class="grid-item">
+                        <h3 class="category-title">Back-end Development</h3>
+                        <ul class="skill-list">
+                            <li>php</li>
+                            <li>Java</li>
+                            <li>C/C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="grid-item">
+                        <h3 class="category-title">Git</h3>
+                        <ul class="skill-list">
+                            <li>Git</li>
+                            <li>Github</li>
+                        </ul>
+                    </div>
+                </div>
+
             </div>
             <!-- Adicione mais categorias e habilidades conforme necessário -->
+        </div>
     </section>
-    </div>
 
     <!--contact-->
     <div class="contact">
         <section id="contact">
             <h2>Contact</h2>
-            <p>Email: Paulo.rfm.edu@gmail.com</p>
+            <p>Email: paulo.rfm.edu@gmail.com</p>
             <br>
-            <p>phone: +5534991622090</p>
+            <label for="Github">
+                <a href="https://github.com/Paulo-RFM" target="_blank">
+                    <img src="assets/src/icons/github.png" alt="GitHub">
+                </a>
+            </label>
+
+            <label for="LinkedIn">
+                <a href="https://www.linkedin.com/in/paulorfmaciel/" target="_blank">
+                <img src="assets/src/icons/linkedin.png" alt="LinkedIn">
+                </a>
+            </label>
+
+            <label for="Store">
+                <a href="https://play.google.com/store/apps/dev?id=6822851370382307331" target="_blank">
+                    <img src="assets/src/icons/store.png" alt="Store">
+                </a>
+            </label>
+            <br>
         </section>
     </div>
 

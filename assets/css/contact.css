@@ -1,13 +1,29 @@
 .contact {
-    height: 300px;
     text-align: center;
+    background-color: var(--background-color2);
 }
 
 .contact h2 {
-    font-size: 60px;
+    font-size: 2em;
     text-align: center;
 }
 
 .contact p {
-    font-size: 35px;
+    font-size: 1.5em;
+}
+
+.contact img {
+    width: 5vh;
+    padding-right: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .contact h2 {
+        font-size: 1em;
+        text-align: center;
+    }
+    
+    .contact p {
+        font-size: 0.5em;
+    }
 }
